@@ -1,4 +1,4 @@
-# Project-1 Hangman game
+## **Task-1 Hangman game**
 
 # 🎮 Hangman Game
 
@@ -29,6 +29,7 @@ A simple text-based Hangman game built using **Python**. The player tries to gue
 Hangman-Game/
 │── hangman.py
 │── README.md
+|__ Learnings
 ```
 
 ## ▶️ How to Run
