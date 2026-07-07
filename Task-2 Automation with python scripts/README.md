@@ -1,4 +1,4 @@
-## 📧 Task 2 - Email Address Extractor
+# **📧 Task 2 - Email Address Extractor**
 
 ## 📌 Task Overview
 
