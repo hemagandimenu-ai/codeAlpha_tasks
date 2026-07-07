@@ -1,0 +1,11 @@
+📚 Learning Outcomes
+During this project, I learned:
+Python File Handling (reading and writing text files)
+Using the re module for Regular Expressions
+Extracting data from text using pattern matching
+Working with strings and lists in Python
+Automating repetitive tasks using Python scripts
+Reading input from files and saving output to another file
+Improving problem-solving and debugging skills
+Organizing a Python project for GitHub
+Writing clear project documentation using Markdown (README.md)
