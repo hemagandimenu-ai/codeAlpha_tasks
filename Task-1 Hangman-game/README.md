@@ -1,6 +1,6 @@
-## **Task-1 Hangman game**
+# **Task-1 Hangman game**
 
-# 🎮 Hangman Game
+## 🎮 Hangman Game
 
 A simple text-based Hangman game built using **Python**. The player tries to guess a randomly selected word one letter at a time before running out of attempts.
 
