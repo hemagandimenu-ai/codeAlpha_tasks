@@ -1,6 +1,6 @@
-# 📧 Task 2 - Email Address Extractor
+## 📧 Task 2 - Email Address Extractor
 
-## 📌 Project Overview
+## 📌 Task Overview
 
 The **Email Address Extractor** is a Python automation script developed as part of the **CodeAlpha Python Programming Internship**.
 
@@ -10,7 +10,7 @@ This automation helps save time, reduces manual effort, and improves accuracy wh
 
 ---
 
-# 🎯 Objective
+## 🎯 Objective
 
 The main objective of this project is to automate the task of extracting email addresses from text files using Python.
 
@@ -24,7 +24,7 @@ The program performs the following operations:
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - 📄 Reads text from an input file.
 - 📧 Extracts all valid email addresses.
@@ -36,7 +36,7 @@ The program performs the following operations:
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - Python 3
 - Regular Expressions (`re`)
@@ -44,7 +44,7 @@ The program performs the following operations:
 
 ---
 
-# 📚 Python Concepts Used
+## 📚 Python Concepts Used
 
 - Variables
 - Strings
@@ -57,7 +57,7 @@ The program performs the following operations:
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```
 Task-2-Email-Extractor/
@@ -70,7 +70,7 @@ Task-2-Email-Extractor/
 
 ---
 
-# ⚙️ How It Works
+## ⚙️ How It Works
 
 1. The user stores text inside **input.txt**.
 2. The Python program reads the contents of the file.
@@ -81,7 +81,7 @@ Task-2-Email-Extractor/
 
 ---
 
-# ▶️ How to Run the Project
+## ▶️ How to Run the Project
 
 ### Step 1
 
@@ -109,7 +109,7 @@ python main.py
 
 ---
 
-# 📥 Sample Input
+## 📥 Sample Input
 
 Contents of **input.txt**
 
@@ -129,7 +129,7 @@ Thank You.
 
 ---
 
-# 📤 Sample Output
+## 📤 Sample Output
 
 Console Output
 
@@ -149,19 +149,17 @@ Saved successfully to extracted_emails.txt
 
 ---
 
-# 📄 Output File
+## 📄 Output File
 
 Contents of **extracted_emails.txt**
 
 ```
-support@gmail.com
-hr@company.org
-sales@yahoo.com
+hemugandimenu@gmail.com
 ```
 
 ---
 
-# 🧠 Regular Expression Used
+## 🧠 Regular Expression Used
 
 ```python
 [a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}
@@ -176,7 +174,7 @@ This Regular Expression identifies valid email addresses by matching:
 
 ---
 
-# 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - Remove duplicate email addresses.
 - Export emails to CSV or Excel.
@@ -187,7 +185,7 @@ This Regular Expression identifies valid email addresses by matching:
 
 ---
 
-# 📈 Learning Outcomes
+## 📈 Learning Outcomes
 
 By completing this project, I learned:
 
@@ -201,7 +199,7 @@ By completing this project, I learned:
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Hemanjali gandimenu**
 
