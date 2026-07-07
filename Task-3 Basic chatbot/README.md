@@ -1,12 +1,13 @@
-🤖 Basic Rule-Based Chatbot
+#  Task-3 🤖 Basic chatbot
 
-📌 Project Overview
+
+## 📌 Task Overview
 
 This project is a simple rule-based chatbot developed using Python. The chatbot interacts with users by accepting text input and responding with predefined answers. It is designed to demonstrate the use of Python fundamentals such as functions, conditional statements, loops, and input/output operations.
 
 ---
 
-🎯 Objective
+## 🎯 Objective
 
 To build a basic chatbot that can:
 
@@ -17,7 +18,7 @@ To build a basic chatbot that can:
 
 ---
 
-✨ Features
+## ✨ Features
 
 - User-friendly conversation.
 - Handles greetings like Hi, Hello, and Hey.
@@ -30,7 +31,7 @@ To build a basic chatbot that can:
 
 ---
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3
 - Functions
@@ -40,7 +41,7 @@ To build a basic chatbot that can:
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 Basic-Chatbot/
 │── chatbot.py
@@ -48,7 +49,7 @@ Basic-Chatbot/
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
 
 1. Install Python 3 on your computer.
 2. Download or clone this repository.
@@ -60,7 +61,7 @@ python chatbot.py
 
 ---
 
-💬 Example Conversation
+## 💬 Example Conversation
 
 ===========================================
       WELCOME TO BASIC CHATBOT
@@ -80,7 +81,7 @@ Chatbot: Goodbye! Have a wonderful day.
 
 ---
 
-📚 Python Concepts Used
+## 📚 Python Concepts Used
 
 - Functions
 - if-elif-else
@@ -90,7 +91,7 @@ Chatbot: Goodbye! Have a wonderful day.
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Store user name during conversation.
 - Display the current date and time.
@@ -100,13 +101,13 @@ Chatbot: Goodbye! Have a wonderful day.
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Hema
 B.Tech Computer Science and Engineering
 
 ---
 
-📄 License
+## 📄 License
 
-This project is created for educational purposes and can be freely modified for learning and practice.
+*** This project is created for educational purposes and can be freely modified for learning and practice.*** 
