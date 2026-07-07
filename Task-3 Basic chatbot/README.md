@@ -59,14 +59,16 @@ Basic-Chatbot/
 
 python chatbot.py
 
----
+
 
 ## 💬 Example Conversation
-
+```
 ===========================================
       WELCOME TO BASIC CHATBOT
 ===========================================
+```
 
+```
 You: hello
 Chatbot: Hello! Nice to meet you.
 
@@ -78,6 +80,7 @@ Chatbot: Why do programmers prefer dark mode? Because light attracts bugs!
 
 You: bye
 Chatbot: Goodbye! Have a wonderful day.
+```
 
 ---
 
