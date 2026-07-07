@@ -1,0 +1,53 @@
+# Hangman Game
+import random
+
+words = ["apple", "mango", "kitten", "elephant", "fish", "grapes",
+         "icecream", "eagle", "horse", "python", "java", "html"]
+
+word = random.choice(words)
+
+guessed = ["_"] * len(word)
+attempts = 6
+guessed_letters = []
+
+print("===== Welcome to the Simple Hangman Game =====")
+print("Guess the word")
+print(" ".join(guessed))
+
+while attempts > 0 and "_" in guessed:
+
+    guess = input("\nEnter a letter: ").lower()
+
+    # Check if input is a single alphabet
+    if not guess.isalpha() or len(guess) != 1:
+        print("Please enter only one alphabet letter.")
+        continue
+
+    # Check if letter already guessed
+    if guess in guessed_letters:
+        print("You have already guessed that letter.")
+        continue
+
+    guessed_letters.append(guess)
+
+    # Check if guess is correct
+    if guess in word:
+        print("Correct!")
+
+        for i in range(len(word)):
+            if word[i] == guess:
+                guessed[i] = guess
+
+    else:
+        attempts -= 1
+        print("Wrong! Attempts left:", attempts)
+
+    print("Word:", " ".join(guessed))
+
+# Result
+if "_" not in guessed:
+    print("\n🎉 Congratulations! You Win!")
+    print("The word was:", word)
+else:
+    print("\n😔 Better luck next time!")
+    print("The word was:", word)
