@@ -1,4 +1,4 @@
-# Project-1 Hangman game
+# Task-1 Hangman game
 
 # 🎮 Hangman Game
 
