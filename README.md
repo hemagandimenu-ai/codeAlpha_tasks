@@ -66,5 +66,6 @@ This repository showcases my Python programming skills and the projects complete
 
 ## 👩‍💻 Author
 
-**Hemanjali gandimenu**
+**Hemanjali Gandimenu**
+
 - GitHub: https://github.com/hemagandimenu-ai
