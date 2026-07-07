@@ -154,7 +154,9 @@ Saved successfully to extracted_emails.txt
 Contents of **extracted_emails.txt**
 
 ```
-hemugandimenu@gmail.com
+support@gmail.com
+hr@company.org
+sales@yahoo.com
 ```
 
 ---
