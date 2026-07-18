@@ -1,32 +1,53 @@
-import re
+# Stock Portfolio Tracker
 
-# Open and read the input file
-with open("input.txt", "r") as file:
-    text = file.read()
+# Hardcoded stock prices
+stock_prices = {
+    "AAPL": 180,
+    "TSLA": 250,
+    "GOOGL": 140,
+    "MSFT": 320,
+    "AMZN": 135
+}
 
-# Regular expression to find email addresses
-email_pattern = r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+portfolio = {}
+total_investment = 0
 
-# Extract all email addresses
-emails = re.findall(email_pattern, text)
+# Number of stocks
+n = int(input("Enter the number of stocks: "))
 
-# Save the extracted emails to a new file
-with open("extracted_emails.txt", "w") as file:
-    if emails:
-        for email in emails:
-            file.write(email + "\n")
+# Get stock details
+for i in range(n):
+    stock = input("Enter Stock Name (AAPL, TSLA, GOOGL, MSFT, AMZN): ").upper()
+    quantity = int(input("Enter Quantity: "))
+
+    if stock in stock_prices:
+        portfolio[stock] = quantity
     else:
-        file.write("No email addresses found.")
+        print("Stock not available!")
 
-# Display the result
-print("===== Email Address Extractor =====")
+# Display Portfolio
+print("\n===== STOCK PORTFOLIO =====")
 
-if emails:
-    print("Email addresses found:")
-    for email in emails:
-        print(email)
+for stock, quantity in portfolio.items():
+    price = stock_prices[stock]
+    investment = price * quantity
+    total_investment += investment
 
-    print("\nTotal Emails Extracted:", len(emails))
-    print("Saved successfully to extracted_emails.txt")
-else:
-    print("No email addresses found.")
+    print(f"{stock} : {quantity} shares × ${price} = ${investment}")
+
+print("----------------------------")
+print("Total Investment = $", total_investment)
+
+# Save result to a text file
+with open("portfolio.txt", "w") as file:
+    file.write("===== STOCK PORTFOLIO =====\n")
+
+    for stock, quantity in portfolio.items():
+        price = stock_prices[stock]
+        investment = price * quantity
+        file.write(f"{stock} : {quantity} shares x ${price} = ${investment}\n")
+
+    file.write("----------------------------\n")
+    file.write(f"Total Investment = ${total_investment}")
+
+print("\nPortfolio saved successfully to portfolio.txt")
